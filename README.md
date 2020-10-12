@@ -1,0 +1,2 @@
+# gyakorlo_mappa
+ gyakszi
