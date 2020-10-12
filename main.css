@@ -4,6 +4,20 @@ h2 {
     font-size: xx-large;
 }
 
+.position-left {
+    position: relative;
+    float: left;
+}
+
+.position-right {
+    position: relative;
+    float: right;
+}
+
+.grey {
+    background-color: rgb(202, 202, 202);
+}
+
 #canvas {
     width: 500px;
     height: 500px;
@@ -20,80 +34,53 @@ h2 {
 }
 
 #first-grey {
-    position: relative;
-    float: left;
     width: 22%;
     height: 32%;
-    background-color: lightgrey;
 }
 
 #black-row-upper {
-    position: relative;
-    float: left;
     width: 4%;
     height: 5%;
-    background-color: black;
 }
 
 #second-grey {
-    position: relative;
-    float: left;
     width: 22%;
     height: 38%;
-    background-color: lightgrey;
 }
 
 #black-row-bottom {
-    position: relative;
-    float: left;
     width: 100%;
     height: 3%;
-    background-color: black;
 }
 
 #blue-rectangle {
-    position: relative;
-    float: left;
     width: 22%;
     height: 22%;
     background-color: rgba(44, 119, 216, 0.8);
 }
 
 #black-col-bottom-left {
-    position: relative;
-    float: left;
     width: 3%;
     height: 22%;
-    background-color: black;
 }
 
 #small-grey-rectangle {
-    position: relative;
-    float: right;
     width: 10%;
     height: 9%;
-    background-color: lightgray;
 }
 
 #yellow-rectangle {
-    position: relative;
-    float: right;
     width: 10%;
     height: 10%;
-    background-color: rgba(238, 225, 121, 0.86);
+    background-color: rgba(243, 239, 117, 0.86);
 }
 
 #black-row-right-bottom {
-    position: relative;
-    float: right;
     width: 10%;
     height: 3%;
 }
 
 #bottom-grey {
-    position: relative;
-    float: left;
     width: 62%;
     height: 22%;
-    background-color: lightgray;
 }
