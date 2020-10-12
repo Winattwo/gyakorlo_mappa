@@ -71,7 +71,7 @@ h2 {
     position: relative;
     float: right;
     width: 10%;
-    height: 10%;
+    height: 9%;
     background-color: lightgray;
 }
 
@@ -81,6 +81,13 @@ h2 {
     width: 10%;
     height: 10%;
     background-color: rgba(238, 225, 121, 0.86);
+}
+
+#black-row-right-bottom {
+    position: relative;
+    float: right;
+    width: 10%;
+    height: 3%;
 }
 
 #bottom-grey {
