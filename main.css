@@ -1,45 +1,53 @@
 /* The base of every button */
 
-.btn {
+.button {
     display: inline-block;
     text-decoration: none;
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 14px;
-    line-height: 1.42857143;
-    padding: 6px 12px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 10px 15px;
+    margin-bottom: 14px;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 0px;
     white-space: nowrap;
     vertical-align: middle;
-    color: #fff;
+    background-color: #ffffff;
+    border-color: #000000;
+    color: #000000;
 }
 
 
 /* Additional styles for "Default" */
 
-.btn-default {
-    color: #333;
+.button:hover {
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff;
+}
+
+
+/*
+.button-prev:hover {
+    background-color: rgb(0, 0, 0);
+    border-color: #fff;
+    color: #fff;
+}
+
+.button-next {
     background-color: #fff;
-    border-color: #ccc;
+    border-color: rgb(0, 0, 0);
 }
 
-.btn-default:hover {
-    background-color: #e6e6e6;
-    border-color: #adadad;
+.button-next:hover {
+    background: rgb(0, 0, 0);
+    border: #fff4;
 }
+*/
 
-.btn-primary {
-    background: #337ab7;
-    border: #2e6da4;
-}
 
-.btn-primary:hover {
-    background: #286090;
-    border: #204d74;
-}
-
+/*
 .btn-success {
     background: #5cb85c;
     border: #4cae4c;
@@ -79,3 +87,4 @@
     background: #c9302c;
     border: #ac2925;
 }
+*/
